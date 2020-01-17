@@ -15,9 +15,8 @@
         <?php
             echo "การใช้ Strlen นัดความยาวตัวอักษร";
             echo br();
-            $str2="Phuminan Wimano";git remote add origin https://github.com/wifigame1/phpweb_.git
-            git push -u origin master
-            echo "ตัวแปล str2 มีความยาว :" .strlen(trim($str2));
+            $str2="Phuminan Wimano";
+            echo "ตัวแปล str2 มีความยาว :".strlen(trim($str2));
         ?>
         <hr>
 
