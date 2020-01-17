@@ -20,6 +20,13 @@
             echo $strArray[1]."<br>";
             echo $strArray[2]."<br>";
             echo $strArray[3]."<br>";
+
+            $str = "13:33:59";
+            $strArray = explode(" ",$str);
+            echo $strArray[0]."<br>";
+            echo $strArray[1]."<br>";
+            echo $strArray[2]."<br>";
+
         ?>
         <hr>
 
