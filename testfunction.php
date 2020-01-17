@@ -12,12 +12,22 @@
     
     <div>
         <?php
+            echo "การใช้ explode แยกข้อความเป้นส่วนๆ"
+            echo br(); 
+            
+        
+        ?>
+        <hr>
+
+        <?php
             echo "การใช้ ltrim rtrim trim ตัดช่องว่าง";
             echo br();
             $str = "           ltrim test";
             echo ltrim($str);
+            echo br();
             $str = " rtrim  test            ";
             echo rtrim($str);
+            echo br();
             $str = "           trim test             ";
             echo trim($str);
         ?>
@@ -62,7 +72,7 @@
 
             echo str_replace("*",".",$str);
             echo br();
-            $str= "test fuck learn run"
+            $str= "test fuck learn run";
             echo str_replace("fuck","***",$str);
          ?>
          <hr>        
