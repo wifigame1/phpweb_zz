@@ -12,10 +12,14 @@
     
     <div>
         <?php
-            echo "การใช้ explode แยกข้อความเป้นส่วนๆ"
+            echo "การใช้ explode แยกข้อความเป้นส่วนๆ";
             echo br(); 
-            
-        
+            $str = "My name is FamZ";
+            $strArray = explode(" ",$str);
+            echo $strArray[0]."<br>";
+            echo $strArray[1]."<br>";
+            echo $strArray[2]."<br>";
+            echo $strArray[3]."<br>";
         ?>
         <hr>
 
