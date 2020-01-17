@@ -11,6 +11,17 @@
 <body>
     
     <div>
+        <?php
+            echo "การใช้ ltrim rtrim trim ตัดช่องว่าง";
+            echo br();
+            $str = "           ltrim test";
+            echo ltrim($str);
+            $str = " rtrim  test            ";
+            echo rtrim($str);
+            $str = "           trim test             ";
+            echo trim($str);
+        ?>
+        <hr>
 
          <?php
             echo "การใช้ฟังก์ชัน Strtoupper เปลี่ยนข้อความเป็นตัวพิมพ์ใหญ่";
